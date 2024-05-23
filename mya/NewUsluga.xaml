@@ -5,19 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:mya"
         mc:Ignorable="d"
-        Title="NewUsluga" Height="450" Width="800">
+        Title="NewUsluga" Height="450" Width="800" Icon="/адщцукы.png">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="191*"/>
+            <ColumnDefinition Width="75*"/>
+            <ColumnDefinition Width="267*"/>
+            <ColumnDefinition Width="267*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox  x:Name="Name" Grid.Column="1" Width="100px" Height="50px" Background="Black"  Foreground="Red"  ></TextBox>
-        <Button x:Name="OkButton" Content="Ok" Margin="70 50" Grid.Column="1" Grid.Row="2" Click="OkButton_Click"/>
+        <TextBox  x:Name="Name" Grid.Column="2" Width="100px" Height="50px" Background="White"  Foreground="Black" Margin="83,47,83,48"  ></TextBox>
+        <Button x:Name="OkButton" Content="Ok" Margin="70,50,70,50" Grid.Column="2" Grid.Row="2" Click="OkButton_Click"/>
     </Grid>
 </Window>

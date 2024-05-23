@@ -64,5 +64,11 @@ namespace mya
             NewUsluga usluga = new NewUsluga();
             usluga.Show();
         }
+
+        private void aut_Click(object sender, RoutedEventArgs e)
+        {
+            Authorization authorization = new Authorization();
+            authorization.Show();
+        }
     }
 }

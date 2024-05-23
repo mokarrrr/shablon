@@ -13,6 +13,7 @@
             <RowDefinition />
         </Grid.RowDefinitions>
         <Button Click="NewService_click" MaxWidth="100px" HorizontalAlignment="Left" > Новая услуга</Button>
+        <Button Click="aut_Click" MaxWidth="100px" HorizontalAlignment="Right" >Новая услуга</Button>
         <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Row="1">
             <ItemsControl x:Name="name" HorizontalAlignment="Center" Padding="50px">
                 <ItemsControl.ItemTemplate>

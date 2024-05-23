@@ -8,6 +8,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="pic\events\.jpeg" />
+    <None Remove="pic\events\1.jpeg" />
+    <None Remove="pic\events\10.jpg" />
+    <None Remove="pic\events\11.jpg" />
+    <None Remove="pic\events\12.jpg" />
+    <None Remove="pic\events\13.jpg" />
+    <None Remove="pic\events\14.png" />
+    <None Remove="pic\events\15.jpg" />
+    <None Remove="pic\events\16.jpg" />
+    <None Remove="pic\events\17.jpg" />
+    <None Remove="pic\events\18.jpeg" />
+    <None Remove="pic\events\19.jpg" />
+    <None Remove="pic\events\2.jpeg" />
+    <None Remove="pic\events\20.jpg" />
+    <None Remove="pic\events\21.jpeg" />
+    <None Remove="pic\events\21.jpg" />
+    <None Remove="pic\events\3.jpeg" />
+    <None Remove="pic\events\4.jpeg" />
+    <None Remove="pic\events\5.png" />
+    <None Remove="pic\events\6.jpg" />
+    <None Remove="pic\events\7.jpg" />
+    <None Remove="pic\events\8.jpeg" />
+    <None Remove="pic\events\9.jpg" />
     <None Remove="адщцукы.png" />
   </ItemGroup>
 
@@ -17,7 +40,31 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="pic\events\.jpeg" />
+    <Resource Include="pic\events\1.jpeg" />
+    <Resource Include="pic\events\10.jpg" />
+    <Resource Include="pic\events\11.jpg" />
+    <Resource Include="pic\events\12.jpg" />
+    <Resource Include="pic\events\13.jpg" />
+    <Resource Include="pic\events\14.png" />
+    <Resource Include="pic\events\15.jpg" />
+    <Resource Include="pic\events\16.jpg" />
+    <Resource Include="pic\events\17.jpg" />
+    <Resource Include="pic\events\18.jpeg" />
+    <Resource Include="pic\events\19.jpg" />
+    <Resource Include="pic\events\2.jpeg" />
+    <Resource Include="pic\events\20.jpg" />
+    <Resource Include="pic\events\21.jpeg" />
+    <Resource Include="pic\events\21.jpg" />
+    <Resource Include="pic\events\3.jpeg" />
+    <Resource Include="pic\events\4.jpeg" />
+    <Resource Include="pic\events\5.png" />
+    <Resource Include="pic\events\6.jpg" />
+    <Resource Include="pic\events\7.jpg" />
+    <Resource Include="pic\events\8.jpeg" />
+    <Resource Include="pic\events\9.jpg" />
     <Resource Include="pic\адщцукы.png" />
+    <Resource Include="адщцукы.png" />
   </ItemGroup>
 
 </Project>

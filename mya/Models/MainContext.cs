@@ -14,6 +14,8 @@ namespace mya.Models
         private readonly string connectionString = "Data Source=DESKTOP-SD2NSU5\\MSSQLSERVER05; initial Catalog=zalupa; " +
 "Integrated Security=True;TrustServerCertificate=True";
         public DbSet<Event> Events { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Role> Roles { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(connectionString);
