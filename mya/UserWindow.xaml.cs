@@ -29,5 +29,12 @@ namespace mya
             db = new MainContext();
             InitializeComponent();
         }
+
+        private void LogOutButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow win = new MainWindow();
+            win.Show();
+            this.Hide();
+        }
     }
 }
